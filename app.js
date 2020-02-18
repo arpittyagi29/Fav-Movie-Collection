@@ -1,12 +1,9 @@
 const addMovieModal = document.getElementById('add-modal');
 const startAddMovieButton = document.querySelector('header button');
-
 const backdrop = document.getElementById('backdrop');
-// const backdrop = document.body.firstElementChild;
 const cancelAddMovieButton = addMovieModal.querySelector('.btn--passive');
 const confirmAddMovieButton = cancelAddMovieButton.nextElementSibling;
 const userInputs = addMovieModal.querySelectorAll('input');
-// const userInputs = addMovieModal.getElementsByTagName('input');
 const entryTextSection = document.getElementById('entry-text');
 const deleteMovieModal = document.getElementById('delete-modal');
 
